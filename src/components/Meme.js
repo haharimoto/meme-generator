@@ -6,7 +6,7 @@ function Meme() {
   const [meme, setMeme] = useState({
     topText: "",
     bottomText: "",
-    randomImage: "https://www.lifewire.com/thmb/K0oF6bk8jsXRJFUFma5pNo7xjyc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Goalfor2020FunnyMeme-04eadff55a17489a85453238481fe36e.jpg"
+    randomImage: "https://static.clideo.com/files/content/506/twitter-meme-maker-1.png"
   })
 
   const [allMemes, setAllMemes] = useState([])
