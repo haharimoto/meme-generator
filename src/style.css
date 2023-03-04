@@ -5,6 +5,8 @@
 body {
   font-family: "Karla", sans-serif;
   margin: 0;
+  background-color: rgb(222, 222, 222);
+  height: 100vh;
 }
 
 main {
@@ -47,16 +49,25 @@ main {
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
+  font-weight: 600;
 }
 
 .form--button {
   grid-column: 1 / -1;
   font-family: "Karla", sans-serif;
+  font-weight: bold;
   border-radius: 5px;
   background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
   color: white;
   border: none;
   cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.form--button:hover {
+  filter: saturate(50%);
+  transition: 0.3s;
 }
 
 .meme {
@@ -94,6 +105,11 @@ main {
       0 -2px 0 #000,
       -2px 0 0 #000,
       2px 2px 5px #000;
+  transition: all 0.3s;
+}
+
+.meme--text:hover {
+  transform: translateX(-50%) scale(1.2);
 }
 
 .bottom {
